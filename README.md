@@ -18,6 +18,5 @@ Each step exists in two variants, stored in separate folders:
 ## Model and settings
 
 - Model: [Mistral-Small-24B-Instruct-2501](https://huggingface.co/mistralai/Mistral-Small-24B-Instruct-2501) (Mistral AI, 2025)
-- Temperature and other parameters: [values]
 - Steps were run as separate calls, with the output of each step passed to the next.
-- Prompt placeholders are explained in the prompt-files.
+- Prompt placeholders are explained in the respective prompt-files.

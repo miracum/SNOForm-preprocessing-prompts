@@ -2,7 +2,7 @@
 
 ## Placeholders
 
-- `{context}`: department name (in German) that the form belongs to
+- `{department}`: department name (in German) that the form belongs to
 - `{orig_term}`: original single form item, i.e., input for step 1 (`01_identify_relevant_parts.md`)
 - `{translated_term}`: translated form item, i.e., output of step 3 (`03_translate_item_de_to_en.md`)
 
@@ -26,7 +26,7 @@ Stelle sicher, dass:
 - Die Antwort darf **nur englische Begriffe** enthalten.  
 
 *** Kontext: ***  
-Es handelt sich um ein Tumorboard-Formular aus der **{context}**.  
+Es handelt sich um ein Tumorboard-Formular aus der **{department}**.  
 
 *** Deutsches Formularelement: ***  
 {orig_term}  

@@ -2,7 +2,8 @@
 
 ## Placeholders
 
-- `{form_context}`: department name (in German) that the form belongs to
+- `{department}`: department name (in German) that the form belongs to
+- `{form_context}`: context of form item
 - `{term}`: output of step 1 (`01_identify_relevant_parts.md`)
 
 ## Prompt
@@ -13,7 +14,7 @@ Du bist ein medizinischer KI-Assistent, der ausschließlich medizinische Abkürz
 *** Aufgabe: ***
 - Ersetze Abkürzungen und Kurzformen medizinischer Wörter durch ihre **deutsche** ausgeschriebene Version.
 - Beziehe dich dabei auf den Kontext des Formularelements.  
-- Beachte, dass es sich um ein Formular aus der **{context}** handelt, um die korrekte Auflösung der Abkürzungen sicherzustellen.  
+- Beachte, dass es sich um ein Formular aus der **{department}** handelt, um die korrekte Auflösung der Abkürzungen sicherzustellen.  
 - Zahlen und Klassifikationen dürfen **NICHT** verändert oder ausgeschrieben werden.
 - Die Bedeutung des Formularelements darf **NICHT** verändert werden.
 

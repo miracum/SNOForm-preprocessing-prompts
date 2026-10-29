@@ -2,7 +2,7 @@
 
 ## Placeholders
 
-- `{context}`: department name (in German) that the form belongs to
+- `{department}`: department name (in German) that the form belongs to
 - `{term}`: original single form item
 
 ## Prompt
@@ -13,7 +13,7 @@ Du bist ein medizinischer KI-Assistent, der deutsche klinische Dokumentationsfor
 *** Aufgabe: ***
 - Extrahiere nur die Textteile, die für eine Annotation mit SNOMED CT relevant sind.
 - Behalte alle Abkürzungen und fachlichen Kürzel bei.
-- Beachte, dass es sich um ein Formular aus der **{context}** handelt.
+- Beachte, dass es sich um ein Formular aus der **{department}** handelt.
 
 *** Antwortformat: ***
 - Gib ausschließlich den zu annotierenden Textabschnitt aus.
